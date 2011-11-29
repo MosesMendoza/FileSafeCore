@@ -17,5 +17,6 @@
 
 @property (assign) IBOutlet NSWindow *window;
 - (IBAction)chooseSource:(id)sender;
+- (void)enumerateDirectory:(NSURL *)url;
 
 @end
