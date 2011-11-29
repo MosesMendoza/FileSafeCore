@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'FileSafeCore' target in the 'FileSafeCore' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
